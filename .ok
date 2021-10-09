@@ -1,0 +1,4 @@
+build: cargo build --release
+run: ok build; w4 run target/wasm32-unknown-unknown/release/cart.wasm
+watch: w4 watch
+bundle: w4 bundle target/wasm32-unknown-unknown/release/cart.wasm --html mandelbrot.html
